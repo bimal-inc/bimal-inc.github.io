@@ -112,6 +112,12 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
+      {% if author.lens %}
+        <li><a href="{{ author.lens }}"><i class="fas fa-fw fa-search" aria-hidden="true"></i> Lens</a></li>
+      {% endif %}
+      {% if author.researcherid %}
+        <li><span><i class="fas fa-fw fa-id-badge" aria-hidden="true"></i> ResearcherID: {{ author.researcherid }}</span></li>
+      {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
@@ -206,6 +212,9 @@
       {% endif %}
       {% if author.orcid %}
         <a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i></a>
+      {% endif %}
+      {% if author.lens %}
+        <a href="{{ author.lens }}" aria-label="Lens profile"><i class="fas fa-fw fa-search" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.impactstory %}
         <a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i></a>

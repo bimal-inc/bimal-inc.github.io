@@ -107,3 +107,181 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+// Bimal Yadav profile components
+:root {
+    --profile-navy: #102a43;
+    --profile-blue: #1769aa;
+    --profile-sky: #eaf4fb;
+    --profile-ink: #243b53;
+    --profile-line: #d9e2ec;
+}
+
+html { scroll-behavior: smooth; }
+
+.page__content {
+    color: var(--profile-ink);
+    line-height: 1.72;
+
+    h2 {
+        color: var(--profile-navy);
+        margin-top: 2.5em;
+        padding-bottom: .35em;
+        border-bottom: 2px solid var(--profile-line);
+    }
+}
+
+.profile-hero {
+    margin: 0 0 2.5rem;
+    padding: clamp(1.5rem, 5vw, 3.5rem);
+    overflow: hidden;
+    position: relative;
+    border-radius: 18px;
+    color: #fff;
+    background:
+        radial-gradient(circle at 90% 10%, rgba(86, 204, 242, .32), transparent 32%),
+        linear-gradient(135deg, #102a43 0%, #1769aa 100%);
+    box-shadow: 0 18px 45px rgba(16, 42, 67, .18);
+
+    h1 {
+        max-width: 760px;
+        margin: .25rem 0 1rem;
+        color: #fff;
+        font-size: clamp(2rem, 5vw, 3.35rem);
+        line-height: 1.08;
+    }
+}
+
+.eyebrow {
+    margin: 0;
+    color: #8ed8f8;
+    font-size: .76rem;
+    font-weight: 800;
+    letter-spacing: .14em;
+}
+
+.hero-copy { max-width: 780px; font-size: 1.08rem; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.5rem; }
+
+.profile-button {
+    display: inline-block;
+    padding: .68rem 1rem;
+    border: 1px solid rgba(255, 255, 255, .58);
+    border-radius: 9px;
+    color: #fff !important;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+
+    &:hover { transform: translateY(-2px); background: rgba(255, 255, 255, .12); }
+}
+
+.profile-button--primary {
+    border-color: #fff;
+    color: var(--profile-navy) !important;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .13);
+}
+
+.stat-grid, .education-grid, .profile-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-card, .education-card, .publication-card {
+    border: 1px solid var(--profile-line);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(16, 42, 67, .06);
+}
+
+.stat-card {
+    padding: 1.15rem;
+    strong { display: block; color: var(--profile-blue); font-size: 1.55rem; }
+    span { font-size: .88rem; }
+}
+
+.timeline { margin-left: .35rem; border-left: 2px solid #9ccde8; }
+.timeline-item {
+    position: relative;
+    padding: .1rem 0 1.6rem 1.5rem;
+    &::before {
+        content: "";
+        position: absolute;
+        top: .38rem;
+        left: -.42rem;
+        width: .7rem;
+        height: .7rem;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        background: var(--profile-blue);
+        box-shadow: 0 0 0 2px var(--profile-blue);
+    }
+    h3 { margin: .15rem 0 .3rem; color: var(--profile-navy); }
+}
+
+.timeline-date, .publication-year, .education-card > span {
+    color: var(--profile-blue);
+    font-size: .75rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+}
+
+.publication-card { margin: 1rem 0; padding: 1.25rem 1.4rem; }
+.publication-card h3 { margin: .2rem 0; color: var(--profile-navy); }
+.publication-card p { margin: .35rem 0; }
+.publication-card--muted { background: #f7f9fb; }
+
+.education-card {
+    padding: 1.25rem;
+    h3 { margin: .35rem 0; color: var(--profile-navy); }
+    p { margin: .25rem 0 .55rem; }
+}
+
+.skill-cloud { display: flex; flex-wrap: wrap; gap: .55rem; }
+.skill-cloud span {
+    padding: .42rem .72rem;
+    border-radius: 999px;
+    color: #0f5687;
+    background: var(--profile-sky);
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+.profile-links a {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--profile-line);
+    border-radius: 10px;
+    color: var(--profile-navy);
+    text-decoration: none;
+    transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+    span { color: #627d98; font-size: .82rem; }
+    &:hover {
+        transform: translateY(-3px);
+        border-color: #70b7dc;
+        box-shadow: 0 10px 25px rgba(16, 42, 67, .09);
+    }
+}
+
+.contact-panel {
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 16px;
+    color: #fff;
+    background: var(--profile-navy);
+    h2 { margin: .25rem 0; color: #fff; border: 0; }
+}
+
+@media (max-width: 700px) {
+    .stat-grid, .education-grid, .profile-links { grid-template-columns: 1fr; }
+    .profile-hero { border-radius: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .profile-button, .profile-links a { transition: none; }
+}

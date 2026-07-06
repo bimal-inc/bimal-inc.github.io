@@ -6,9 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Bimal Yadav"
+description              : "Graduate researcher in applied statistics, data science, machine learning, and computer vision."
+repository               : "bimal-inc/bimal-inc.github.io"
+url                      : "https://bimal-inc.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,31 +22,33 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
+  name             : "Bimal Yadav"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
-  employer         :
+  bio              : "Applied Statistics & Data Science graduate student at The University of Texas at Arlington"
+  location         : "Irving, Texas, USA"
+  employer         : "The University of Texas at Arlington"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  googlescholar    : "https://scholar.google.com/citations?user=hXU_cfkAAAAJ&hl=en"
+  email            : "bxy8334@mavs.uta.edu"
+  researchgate     : "https://www.researchgate.net/profile/Bimal-Yadav-2"
+  uri              : "https://bimal-inc.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "bimal-inc"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "bimal.inc"
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "bimalyadav"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0000-4000-2308"
+  lens             : "https://www.lens.org/lens/profile/bimalyadav"
+  researcherid     : "QPA-9318-2026"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -136,7 +139,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago
 
 
 # Plugins
