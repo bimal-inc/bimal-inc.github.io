@@ -10,30 +10,82 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-<section class="profile-hero">
+<div class="intro-block">
   <p class="eyebrow">DATA SCIENCE · MACHINE LEARNING · COMPUTER VISION</p>
-  <h1>Building practical intelligence from complex data.</h1>
-  <p class="hero-copy">I am <strong>Bimal Yadav</strong>, a graduate student in Applied Statistics and Data Science at The University of Texas at Arlington. My work combines statistical thinking, machine learning, scientific computing, and software engineering to solve research-driven problems.</p>
-  <div class="hero-actions">
-    <a class="profile-button profile-button--primary" href="mailto:bxy8334@mavs.uta.edu">Get in touch</a>
-    <a class="profile-button" href="https://scholar.google.com/citations?user=hXU_cfkAAAAJ&hl=en">View Google Scholar</a>
-    <a class="profile-button" href="https://github.com/bimal-inc">Explore GitHub</a>
+  <p>I am <strong>Bimal Yadav</strong>, a graduate student in <strong>Applied Statistics and Data Science</strong> at <a href="https://www.uta.edu/">The University of Texas at Arlington</a>. My work combines statistical thinking, machine learning, scientific computing, and software engineering to solve research-driven problems.</p>
+
+  <p>Previously, I was a Graduate Assistant at <strong>SUNY Polytechnic Institute</strong>, where I analyzed more than <strong>100 TB of NetCDF climate-model data</strong> across historical and future simulations from 1950 to 2100. I also conducted computer-vision research at <strong>Rebbion Tech</strong>, developing TensorFlow workflows for preprocessing, transfer learning, fine-tuning, and real-time image classification.</p>
+
+  <p>My undergraduate research at London Metropolitan University applied a ResNet-9 architecture to plant-disease classification using the PlantVillage dataset, achieving more than <strong>90% accuracy</strong> and leading to a peer-reviewed publication. I am interested in research and engineering opportunities where data can create measurable scientific or social impact.</p>
+
+  <p class="availability"><span></span> Open to research collaborations, internships, and applied AI projects.</p>
+</div>
+
+## Research Interests
+
+- **Scientific machine learning:** large-scale climate data, statistical modeling, efficient data pipelines, and visualization
+- **Computer vision:** image classification, object detection, transfer learning, and deep neural networks
+- **AI for social impact:** agricultural intelligence, environmental analytics, and accessible data-driven systems
+
+<div class="research-showcase" aria-label="Research areas">
+  <article class="research-tile">
+    <div class="research-visual research-visual--climate" role="img" aria-label="Climate model and ice thickness visualization"></div>
+    <h3>Climate Data Analytics</h3>
+    <p>Global models · NetCDF · Ice thickness</p>
+  </article>
+  <article class="research-tile">
+    <div class="research-visual research-visual--vision" role="img" aria-label="Computer vision visualization"></div>
+    <h3>Computer Vision</h3>
+    <p>Detection · Classification · TensorFlow</p>
+  </article>
+  <article class="research-tile">
+    <div class="research-visual research-visual--plant" role="img" aria-label="Plant disease classification visualization"></div>
+    <h3>AI for Agriculture</h3>
+    <p>ResNet-9 · PlantVillage · Diagnosis</p>
+  </article>
+  <article class="research-tile">
+    <div class="research-visual research-visual--data" role="img" aria-label="Machine learning data pipeline visualization"></div>
+    <h3>Applied Machine Learning</h3>
+    <p>Modeling · Pipelines · Deployment</p>
+  </article>
+</div>
+
+## News
+
+<ul class="news-list">
+  <li><time>2026.01</time><span>Joined The University of Texas at Arlington to pursue a Master of Applied Statistics and Data Science.</span></li>
+  <li><time>2026.01</time><span>Completed graduate research at SUNY Polytechnic Institute on ice-thickness simulation using global climate models.</span></li>
+  <li><time>2025.08</time><span>Completed computer-vision and image-classification research at Rebbion Tech.</span></li>
+  <li><time>2024.08</time><span>Published <a href="https://doi.org/10.56726/IRJMETS61021">Plant Disease Detection Using ResNet9</a>.</span></li>
+  <li><time>2024.08</time><span>Co-authored <a href="https://doi.org/10.56726/IRJMETS61049">An Empirical Analysis of Artificial Intelligence as a Growth Engine for the Healthcare Sector</a>.</span></li>
+  <li><time>2024.06</time><span>Graduated with First-Class Honors and ranked among the top 5% of third-year students.</span></li>
+</ul>
+
+## Featured Publications
+
+<div class="featured-paper">
+  <div class="featured-paper__visual research-visual research-visual--plant"><span>Published · 2024</span></div>
+  <div class="featured-paper__content">
+    <h3><a href="https://doi.org/10.56726/IRJMETS61021">Plant Disease Detection Using ResNet9</a></h3>
+    <p><strong>Bimal Yadav</strong>, Anjana Ran Yadav, and Amit Sah</p>
+    <p><em>International Research Journal of Modernization in Engineering Technology and Science</em>, Volume 6, Issue 8.</p>
+    <ul>
+      <li>Developed a ResNet-9 classification pipeline using the PlantVillage dataset.</li>
+      <li>Achieved more than 90% classification accuracy through augmentation, training, and validation workflows.</li>
+    </ul>
   </div>
-</section>
+</div>
 
-## About Me
-
-My research interests span **machine learning, computer vision, deep learning, climate-data analytics, and applied artificial intelligence**. I enjoy turning large, difficult datasets into efficient analytical workflows and useful insights.
-
-As a Graduate Assistant at SUNY Polytechnic Institute, I worked with more than **100 TB of NetCDF climate-model data**, examining historical and future simulations from 1950 to 2100 to support ice-thickness estimation. Previously, at Rebbion Tech, I built and refined TensorFlow-based computer-vision workflows involving preprocessing, augmentation, transfer learning, fine-tuning, and real-time image classification.
-
-My undergraduate research applied a ResNet-9 architecture to plant-disease classification using the PlantVillage dataset, achieving more than **90% classification accuracy** and leading to a peer-reviewed publication. Alongside research, I have developed web and mobile applications with React, JavaScript, Node.js, PHP, MySQL, and Flutter.
-
-<div class="stat-grid">
-  <div class="stat-card"><strong>100+ TB</strong><span>climate data analyzed</span></div>
-  <div class="stat-card"><strong>90%+</strong><span>thesis model accuracy</span></div>
-  <div class="stat-card"><strong>2</strong><span>published research papers</span></div>
-  <div class="stat-card"><strong>First Class</strong><span>BSc (Hons) in Computing</span></div>
+<div class="featured-paper">
+  <div class="featured-paper__visual research-visual research-visual--data"><span>Published · 2024</span></div>
+  <div class="featured-paper__content">
+    <h3><a href="https://doi.org/10.56726/IRJMETS61049">Artificial Intelligence as a Growth Engine for the Healthcare Sector</a></h3>
+    <p>Anjana Ran Yadav and <strong>Bimal Yadav</strong></p>
+    <p><em>International Research Journal of Modernization in Engineering Technology and Science</em>, Volume 6, Issue 8.</p>
+    <ul>
+      <li>Examined the role of AI in healthcare innovation, operational growth, and data-informed services.</li>
+    </ul>
+  </div>
 </div>
 
 ## Research Experience
@@ -69,27 +121,9 @@ My undergraduate research applied a ResNet-9 architecture to plant-disease class
 
 ## Publications
 
-<div class="publication-card">
-  <span class="publication-year">2024</span>
-  <h3>Plant Disease Detection Using ResNet9</h3>
-  <p><strong>Bimal Yadav</strong>, Anjana Ran Yadav, and Amit Sah</p>
-  <p><em>International Research Journal of Modernization in Engineering Technology and Science</em>, Volume 6, Issue 8.</p>
-  <a href="https://doi.org/10.56726/IRJMETS61021">View publication →</a>
-</div>
-
-<div class="publication-card">
-  <span class="publication-year">2024</span>
-  <h3>An Empirical Analysis of Artificial Intelligence as a Growth Engine for the Healthcare Sector</h3>
-  <p>Anjana Ran Yadav and <strong>Bimal Yadav</strong></p>
-  <p><em>International Research Journal of Modernization in Engineering Technology and Science</em>, Volume 6, Issue 8.</p>
-  <a href="https://doi.org/10.56726/IRJMETS61049">View publication →</a>
-</div>
-
-<div class="publication-card publication-card--muted">
-  <span class="publication-year">IN REVIEW</span>
-  <h3>Computer Vision and Image Processing: A Paper Review</h3>
-  <p><strong>Bimal Yadav</strong></p>
-</div>
+- **Bimal Yadav**, Anjana Ran Yadav, and Amit Sah. “Plant Disease Detection Using ResNet9.” *IRJMETS*, Volume 6, Issue 8, 2024. [DOI](https://doi.org/10.56726/IRJMETS61021)
+- Anjana Ran Yadav and **Bimal Yadav**. “An Empirical Analysis of Artificial Intelligence as a Growth Engine for the Healthcare Sector.” *IRJMETS*, Volume 6, Issue 8, 2024. [DOI](https://doi.org/10.56726/IRJMETS61049)
+- **Bimal Yadav**. “Computer Vision and Image Processing: A Paper Review.” Under review.
 
 ## Professional Experience
 
